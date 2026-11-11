@@ -1,0 +1,36 @@
+/* Nestday identity layer, Nov 2026 refresh: Night-mode rhythm dial. Loaded after brand.css; visual only. */
+:root{--bg:#1E2140;--bg-alt:#232748;--card:#2B2F5A;--ink:#F6F1E3;--muted:#C3C3E0;--line:#3E4378;--accent:#A89BF2;--accent-2:#BFB5F6;--on-accent:#1E2140;--hi:#F6C6A8;--radius:24px;--focus:#F6C6A8;
+--font-display:'Varela Round', system-ui, sans-serif;--font-body:'Mulish', system-ui, sans-serif;--tracking:0;--cta-band-bg:#2B2F5A;--cta-band-ink:#F6F1E3;--cta-band-btn:#F6C6A8;--cta-band-btn-ink:#1E2140;
+--shadow-card:0 14px 34px rgba(0,0,0,.10);--shadow-btn:none}
+body{font-family:var(--font-body);background:var(--bg);color:var(--ink)}
+.skip:focus{background:var(--card);color:var(--ink);outline:3px solid var(--focus)}
+.btn:focus-visible,.choice:focus-within,a:focus-visible,.input:focus{outline:3px solid var(--focus);outline-offset:2px}
+.choice:has(input:checked){border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+.choice input{accent-color:var(--accent);width:1.15rem;height:1.15rem;flex:none}
+.choice{min-height:3.25rem}
+.btn{min-height:2.75rem}
+.nav a.btn-primary,.nav a.btn-primary:hover{color:var(--on-accent)}
+.safety{border-left-width:6px;border-left-style:solid}
+@media (max-width:560px){.choice{padding:.9rem 1rem}.quiz-q{font-size:1.45rem}}
+
+h1,h2,h3{font-weight:400}
+.site-header{background:rgba(30,33,64,.94);border-bottom:1px solid var(--line)}
+.hero{background:radial-gradient(500px 300px at 80% 10%,rgba(168,155,242,.25),transparent 65%),var(--bg)}
+.hero-card{background:var(--card);border:1px solid var(--line);border-radius:28px;padding-top:9.5rem}
+.hero-card::before{content:"";position:absolute;top:1.25rem;left:50%;margin-left:-3.75rem;width:7.5rem;height:7.5rem;border-radius:50%;background:radial-gradient(circle,var(--card) 56%,transparent 57%),conic-gradient(#A89BF2 0 25%,#F6C6A8 25% 45%,#C3C3E0 45% 70%,#3E4378 70% 100%)}
+.hero-card::after{content:"24h";position:absolute;top:4.4rem;left:50%;transform:translateX(-50%);font:400 1rem 'Varela Round',sans-serif;color:var(--muted)}
+.pill-card,.feature,.price-card,.steps li,.journey-card,.faq-item,.plan-section{background:var(--card);border-color:var(--line);border-radius:24px}
+.section.alt{background:#232748}
+.btn{border-radius:999px;min-height:3.1rem;padding:.8rem 1.5rem;font-size:1rem}
+.btn-ghost{color:var(--ink);border-color:var(--line)}
+.choice{background:var(--card);border-color:var(--line);border-radius:22px;min-height:3.75rem;align-items:center;font-size:1.05rem}
+.choice:hover,.choice:focus-within{background:#252950}
+.choice:has(input:checked){background:#363B6E;border-color:#F6C6A8;box-shadow:none}
+.input{background:var(--card);border-color:var(--line);color:var(--ink);border-radius:18px}
+.progress{height:.7rem;background:#2B2F5A}.progress-bar{background:linear-gradient(90deg,#A89BF2,#F6C6A8)}
+.step-num,.journey-step{background:#F6C6A8;color:#1E2140}
+.lock-banner{background:linear-gradient(135deg,#363B6E,var(--card));border-color:var(--line);border-radius:24px}
+.site-footer{background:#191B36}
+.blur{color:var(--muted)}
+.flash{background:#2B2F5A}
+.safety{background:#3A2E3E;border-color:#F6C6A8;border-left-color:#F6C6A8;font-size:1rem}

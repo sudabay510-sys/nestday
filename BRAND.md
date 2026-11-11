@@ -62,3 +62,24 @@ Nestday is not medical care. For fever, breathing trouble, feeding or growth wor
 - Promise sleeping through the night or any outcome.
 - Fake testimonials, user counts, stats, or press logos.
 - Countdown timers, “spots left”, or other urgency/scare copy.
+
+
+## Identity refresh (Nov 2026)
+
+Visual layer only (`static/identity.css`, `static/logo.svg`, Google Fonts URL). Quiz questions, plan generation, routes, pricing, checkout/unlock, and safety notes are unchanged.
+
+- **Concept:** Night-mode rhythm dial. Designed for 3 a.m. eyes: dark by default, a 24-hour ring shows the day’s loose shape, and every button is big and soft.
+- **Type:** Varela Round (display) / Mulish (body)
+- **Voice:** A calm friend at 3 a.m.: soft, short sentences for tired eyes, and a clear ‘call your pediatrician’ when it matters.
+- **Persona (design assumption, not research):** Ade, back-to-work parent of a 9-month-old (assumption): Daycare drop-off at 8, partner does bedtime twice a week, every day feels different.
+
+| Color | Hex |
+|---|---|
+| Night navy | `#1E2140` |
+| Dusk panel | `#2B2F5A` |
+| Moon cream | `#F6F1E3` |
+| Dusk lavender | `#A89BF2` |
+| Peach | `#F6C6A8` |
+| Mist | `#C3C3E0` |
+
+Full brand guide, persona, and journey: `quiz-to-plan-redesign/products/nestday/brand.html`.

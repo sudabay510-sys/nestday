@@ -105,7 +105,7 @@ BRAND = {
     ],
     "disclaimer_short": "General parenting-routine education only. Not medical advice. Contact your pediatrician with any health concern; call 911 in an emergency.",
     "disclaimer_long": "Nestday provides general, non-medical education about daily routines for babies and toddlers. It does not diagnose, treat, or evaluate any medical, developmental, feeding, or sleep condition, does not prescribe sleep-training methods, and does not replace care from a pediatrician or other licensed clinician. Always follow safe-sleep guidance and your pediatrician’s advice. If you think your child may have a medical emergency, call 911 or your local emergency number. No payments are processed on this site.",
-    "font_url": "https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Mulish:wght@400;500;700&display=swap",
+    "font_url": "https://fonts.googleapis.com/css2?family=Varela+Round&family=Mulish:wght@400;500;600;700;800&display=swap",
     "fonts": ("Quicksand", "Mulish"),
     "questions": Q, "generate_plan": plan,
     "voice": "Soft, reassuring, never judgmental. Short sentences for tired eyes.",
