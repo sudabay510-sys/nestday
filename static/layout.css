@@ -1,0 +1,17 @@
+/* nestday layout compositions (phase 2). Loaded after identity.css. */
+.nd-night .journey-grid{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.nd-night .journey-step{border-radius:50%;box-shadow:inset -7px -2px 0 #F6F1E3;background:#2B2F5A;color:#F6C6A8}
+.nd-q{text-align:center;font:400 1rem var(--font-display);color:var(--muted);margin:0 0 .5rem}
+.q-dots{list-style:none;display:flex;gap:.5rem;padding:0;margin:0 0 .75rem;justify-content:center}
+.q-dots li{width:.9rem;height:.9rem;border-radius:50%;background:#2B2F5A;border:2px solid #3E4378}
+.q-dots li.on{background:#A89BF2;border-color:#A89BF2}.q-dots li.now{background:#F6C6A8;border-color:#F6C6A8}
+.page-quiz .progress{display:none}.page-quiz .tiny.muted{display:none}
+.quiz-q{text-align:center}
+.nd-head{display:grid;grid-template-columns:auto 1fr;gap:2rem;align-items:center;margin-bottom:1.5rem}
+.nd-ring{width:150px;height:150px;border-radius:50%;background:radial-gradient(circle,var(--bg) 56%,transparent 57%),conic-gradient(#A89BF2 0 25%,#F6C6A8 25% 45%,#C3C3E0 45% 70%,#3E4378 70% 100%);display:grid;place-items:center}
+.nd-ring span{font:400 1.1rem var(--font-display);color:var(--muted)}
+.nd-tonight{display:inline-block;background:#F6C6A8;color:#1E2140;font-weight:700;font-size:.8rem;padding:.15rem .6rem;border-radius:999px;margin-bottom:.5rem}
+.page-results .plan-preview,.page-results .plan-full{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.page-results .plan-preview>h2,.page-results .plan-full>h2,.page-results .plan-full>p{grid-column:1/-1}
+.nd-card{margin:0}
+@media (max-width:600px){.nd-head{grid-template-columns:1fr;justify-items:center;text-align:center}.nd-ring{width:110px;height:110px}}
